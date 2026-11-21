@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+      <meta charset="UTF-8">
+    <title>Strona główna</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!--Przycisk do kalkulatora-->
+    <input type="button" value="" id="przyciskDoKalkuratora" onmouseover="motywPrzyciskuDoKalkuratora()" onclick="pokazKalkurator()">
+    <!--Rama do kalkuratora-->
+    <div id="ramaKalkuratora">
+    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHpkemhrMWQ4NXA1eHJ1ampzcmRjdjRnNXR3ODFud2Zyd2t0cm84OSZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/YfSDbA6SLG7uZjj2o5/giphy.gif" id="gif1">
+    <input type="text" value="" id="poleLiczby">
+    
+    <input type="button" value="^" id="przyciskPotegowania" class="przycisk" onclick="wpisz(this)">
+    <input type="button" value="(" id="przyciskLewegoNawiasu" class="przycisk" onclick="wpisz(this)">
+    <input type="button" value=")" id="przyciskPrawegoNawiasu" class="przycisk" onclick="wpisz(this)">
+    <input type="button" value="%" id="przyciskProcentu" class="przycisk" onclick="wpisz(this)">
+    <input type="button" value="1" id="przycisk1" class="przycisk" onclick="wpisz(this)">
+    <input type="button" value="2" id="przycisk2" class="przycisk" onclick="wpisz(this)">
+    <input type="button" value="3" id="przycisk3" class="przycisk" onclick="wpisz(this)">
+    <input type="button" value="+" id="przyciskPlusa" class="przycisk" onclick="wpisz(this)">
+    <input type="button" value="4" id="przycisk4" class="przycisk" onclick="wpisz(this)">
+    <input type="button" value="5" id="przycisk5" class="przycisk" onclick="wpisz(this)">
+    <input type="button" value="6" id="przycisk6" class="przycisk" onclick="wpisz(this)">
+    <input type="button" value="-" id="przyciskMinusa" class="przycisk" onclick="wpisz(this)">
+    <input type="button" value="7" id="przycisk7" class="przycisk" onclick="wpisz(this)">
+    <input type="button" value="8" id="przycisk8" class="przycisk" onclick="wpisz(this)">
+    <input type="button" value="9" id="przycisk9" class="przycisk" onclick="wpisz(this)">
+    <input type="button" value="*" id="przyciskMnożenia" class="przycisk" onclick="wpisz(this)">
+    <input type="button" value="0" id="przycisk0" class="przycisk" onclick="wpisz(this)">
+    <input type="button" value="/" id="przyciskDzielenia" class="przycisk" onclick="wpisz(this)">
+    <input type="button" value="RESET" id="przyciskReset"  class="przycisk" onclick="wyczysc()">
+    <input type="button" value="=" id="przyciskRównania"  class="przycisk" onclick="oblicz()">
+    
+    </div>
+</body>
+</html>
